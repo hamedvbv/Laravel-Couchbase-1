@@ -126,7 +126,7 @@ class CouchbaseConnection extends Connection
             return $couchbase->openBucket($name);
         }
 
-        return $couchbase->openBucket($name, $this->bucketPassword);
+        return $couchbase->openBucket($name);
     }
 
     /**
